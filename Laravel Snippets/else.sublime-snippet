@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+@if(${1:condition})
+    ${2:execute}
+@else
+    ${3:execute if else}
+@endif
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>else</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.laravel-blade</scope>
+</snippet>
+

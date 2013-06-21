@@ -1,0 +1,68 @@
+[
+    {
+        "caption": "Laravel Generate: Model",
+        "command": "generate",
+        "args": {
+            "generate": "model",
+            "fill_in": "Enter the name of the model"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Seed",
+        "command": "generate",
+        "args": {
+            "generate": "seed",
+            "fill_in": "Enter the table name you're seeding"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Test",
+        "command": "generate",
+        "args": {
+            "generate": "test",
+            "fill_in": "Enter the file name for the test"
+        }
+    },
+    {
+        "caption": "Laravel Generate: View",
+        "command": "generate",
+        "args": {
+            "generate": "view",
+            "fill_in": "Enter the file name of the view"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Migration",
+        "command": "generate",
+        "args": {
+            "generate": "migration",
+            "fill_in": "Enter the Migration Name",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Resource",
+        "command": "generate",
+        "args": {
+            "generate": "resource",
+            "fill_in": "Enter the singular name of the resource",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Scaffold",
+        "command": "generate",
+        "args": {
+            "generate": "scaffold",
+            "fill_in": "Enter the singular name of the resource",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Artisan Command",
+        "command": "artisan"
+    }
+]

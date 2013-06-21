@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+public function ${1}()
+{
+    return \$this->belongs_to(${2});
+}
+]]></content>
+<tabTrigger>Eloquent</tabTrigger>
+<scope>source.php</scope>
+<description>Eloquent: belongs_to</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+public function ${1}()
+{
+    return \$this->has_many_and_belongs_to(${2});
+}
+]]></content>
+<tabTrigger>Eloquent</tabTrigger>
+<scope>source.php</scope>
+<description>Eloquent: has_many_and_belongs_to</description>
+</snippet>
