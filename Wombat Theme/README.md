@@ -1,6 +1,6 @@
 # Wombat Theme
 
-![Wombat Theme](http://d.pr/i/qv1j.png)
+![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.gif)
 
 ## Features
 
@@ -8,7 +8,7 @@
 * Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 * Supports high resolution Retina displays.
 * Any italic fonts are disabled. Everything's straight.
-* A bit darker background. I find it more easthetic and easier to read.
+* Two more theme variations. One with darker background and one like Nexus Theme.
 
 It also sets few default options I find useful (you can always change them):
 
@@ -28,7 +28,9 @@ Install it by [Sublime Package Control](http://wbond.net/sublime_packages/commun
 
 ```
   "theme": "Wombat.sublime-theme",
-  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme"
+  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
 ```
 
 You also need to restart Sublime Text.
