@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+        "caption": "Less > Css",
+        "id": "l2c",
+        "children":
+        [
+          { "command": "set_less_base", "caption": "Set less base directory"},
+          { "command": "set_output_dir", "caption": "Set css output directory"},
+          { "command": "reset_less_base_auto", "caption": "Set css output directory to 'auto'"},
+          { "caption": "-" },
+          { "command": "toggle_css_minification", "caption": "Toggle minify output css"},
+          { "caption": "-" },
+          { "command": "less_to_css", "caption": "Compile this less file to css"},
+          { "command": "all_less_to_css", "caption": "Compile all less in less base directory to css" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Less2Css",
+            "children":
+            [
+              {   "command" : "open_file",
+                  "args": {"file": "${packages}/Less2Css/README.md"},
+                  "caption": "Read me"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/Less2Css/less2css.sublime-settings"},
+                  "caption": "Settings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {"file": "${packages}/User/less2css.sublime-settings"},
+                  "caption": "Settings – User"
+              },
+              { "caption": "-" },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Less2Css/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Less2Css/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/Less2Css/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – Default"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Windows).sublime-keymap",
+                      "platform": "Windows"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (OSX).sublime-keymap",
+                      "platform": "OSX"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              {
+                  "command": "open_file",
+                  "args": {
+                      "file": "${packages}/User/Default (Linux).sublime-keymap",
+                      "platform": "Linux"
+                  },
+                  "caption": "Key Bindings – User"
+              },
+              { "caption": "-" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
